@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/User
+    username: ivalov
+    password: 059937
+
+  kafka:
+    bootstrap-servers: localhost:9092
