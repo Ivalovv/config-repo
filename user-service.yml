@@ -1,6 +1,4 @@
 server:
-  application:
-    name: user-service
   compression:
     enabled: false
     http2:
@@ -11,6 +9,8 @@ server:
     tomcat:
       use-relative-redirects: true
 spring:
+  application:
+    name: user-service
   datasource:
     url: jdbc:postgresql://localhost:5432/User
     username: ivalov
