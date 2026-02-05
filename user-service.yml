@@ -1,4 +1,6 @@
 server:
+  application:
+    name: user-service
   compression:
     enabled: false
     http2:
